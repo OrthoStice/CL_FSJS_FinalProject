@@ -1,3 +1,9 @@
-module.exports = {
-	url : 'mongodb://<user>:<pass>@mongo.onmodulus.net:27017/uw45mypu'
+const config = {
+  appName: 'My awesome app',
+  port: 8080,
+  db: {
+   '/MyFirstMEANApp/db' 
+  }
 }
+
+module.exports = config;
